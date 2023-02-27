@@ -10,7 +10,9 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated />
+    <generated>
+      <config projectName="homework" targetName="HomeWork" />
+    </generated>
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -19,8 +21,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Сделал первое дз с 2 тестами">
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -79,16 +85,27 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="C/C++ File.testing.cpp">
+  <component name="RunManager" selected="CMake Application.HomeWork">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Number whith 11" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="untitled" TEST_CLASS="[eleven_Nums]" TEST_METHOD="Number whith 11" TEST_MODE="SUITE_TEST">
+    <configuration name="HomeWork" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="HomeWork" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework" RUN_TARGET_NAME="HomeWork" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Number whith 11" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="untitled" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework" RUN_TARGET_NAME="untitled" TEST_CLASS="[eleven_Nums]" TEST_METHOD="Number whith 11" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="HomeWork" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework" RUN_TARGET_NAME="HomeWork">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testing" TARGET_NAME="testing.cpp" CONFIG_NAME="testing.cpp">
@@ -99,10 +116,13 @@
     </configuration>
     <list>
       <item itemvalue="C/C++ File.testing.cpp" />
+      <item itemvalue="Catch.HomeWork" />
       <item itemvalue="Catch.Number whith 11" />
+      <item itemvalue="CMake Application.HomeWork" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="CMake Application.HomeWork" />
         <item itemvalue="C/C++ File.testing.cpp" />
         <item itemvalue="Catch.Number whith 11" />
       </list>
@@ -118,8 +138,16 @@
       <updated>1677464701317</updated>
       <workItem from="1677464703003" duration="368000" />
       <workItem from="1677465104042" duration="4000" />
-      <workItem from="1677465125503" duration="124000" />
+      <workItem from="1677465125503" duration="818000" />
     </task>
+    <task id="LOCAL-00001" summary="Сделал первое дз с 2 тестами">
+      <created>1677465320914</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677465320914</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,5 +155,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Сделал первое дз с 2 тестами" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал первое дз с 2 тестами" />
   </component>
 </project>
