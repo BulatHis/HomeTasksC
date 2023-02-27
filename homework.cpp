@@ -5,9 +5,6 @@
 #include <vector>
 #include <iostream>
 
-
-
-
 std::vector<int> hw01_test(std::vector<int> numbers) {
 
     //вставка в начало вектора
@@ -67,26 +64,6 @@ std::vector<int> hw01_test(std::vector<int> numbers) {
         std::cout << *st << " ";
     std::cout << '\n';
     return numbers;
-}
-
-std::vector<int> get_eleven_Nums(std::vector<int> numbers) {
-    std::vector<int> eleven_Nums(numbers.size());
-    auto last_elem_eleven = std::copy_if(numbers.begin(), numbers.end(),
-                                         eleven_Nums.begin(), [](int i) { return i % 11 == 0; });
-    eleven_Nums.resize(std::distance(eleven_Nums.begin(), last_elem_eleven));
-    return eleven_Nums;
-}
-int main(){
-    //создание массива
-    std::vector<int> numbersFirst(25);
-    std::iota(numbersFirst.begin(), numbersFirst.end(), 1);
-    hw01_test(numbersFirst);
-};
-
-TEST_CASE("Number whith 11", "[eleven_Nums]") {
-    REQUIRE(get_eleven_Nums(std::vector<int>{1, 2, 3, 4}) == std::vector<int>{});
-    REQUIRE(get_eleven_Nums(std::vector<int>{1, 2, 11, 4}) == std::vector<int>{11});
-    REQUIRE(get_eleven_Nums(std::vector<int>{11, 22,11, 44}) == std::vector<int>{11,22,11,44});
 }
 
 TEST_CASE("AllHW", "[all_HW]") {
