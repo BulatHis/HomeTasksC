@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/bulat/CLionProjects/HomeWork/cmake-build-debug/
 
 build cmake_object_order_depends_target_HomeWork: phony || CMakeFiles/HomeWork.dir
 
-build CMakeFiles/HomeWork.dir/homework.cpp.o: CXX_COMPILER__HomeWork_Debug /home/bulat/CLionProjects/HomeWork/homework.cpp || cmake_object_order_depends_target_HomeWork
-  DEP_FILE = CMakeFiles/HomeWork.dir/homework.cpp.o.d
+build CMakeFiles/HomeWork.dir/HW01/homework.cpp.o: CXX_COMPILER__HomeWork_Debug /home/bulat/CLionProjects/HomeWork/HW01/homework.cpp || cmake_object_order_depends_target_HomeWork
+  DEP_FILE = CMakeFiles/HomeWork.dir/HW01/homework.cpp.o.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/HomeWork.dir
-  OBJECT_FILE_DIR = CMakeFiles/HomeWork.dir
+  OBJECT_FILE_DIR = CMakeFiles/HomeWork.dir/HW01
 
 build CMakeFiles/HomeWork.dir/homework2.cpp.o: CXX_COMPILER__HomeWork_Debug /home/bulat/CLionProjects/HomeWork/homework2.cpp || cmake_object_order_depends_target_HomeWork
   DEP_FILE = CMakeFiles/HomeWork.dir/homework2.cpp.o.d
@@ -69,7 +69,7 @@ build CMakeFiles/HomeWork.dir/homework2.cpp.o: CXX_COMPILER__HomeWork_Debug /hom
 #############################################
 # Link the executable HomeWork
 
-build HomeWork: CXX_EXECUTABLE_LINKER__HomeWork_Debug CMakeFiles/HomeWork.dir/homework.cpp.o CMakeFiles/HomeWork.dir/homework2.cpp.o | /usr/local/lib/libCatch2Main.a /usr/local/lib/libCatch2.a
+build HomeWork: CXX_EXECUTABLE_LINKER__HomeWork_Debug CMakeFiles/HomeWork.dir/HW01/homework.cpp.o CMakeFiles/HomeWork.dir/homework2.cpp.o | /usr/local/lib/libCatch2Main.a /usr/local/lib/libCatch2.a
   FLAGS = -g
   LINK_LIBRARIES = /usr/local/lib/libCatch2Main.a  /usr/local/lib/libCatch2.a
   OBJECT_DIR = CMakeFiles/HomeWork.dir
