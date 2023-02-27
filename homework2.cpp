@@ -18,5 +18,5 @@ TEST_CASE("hw02", "[test]") {
     REQUIRE(hw02_test(std::vector<int>{79, 80, 90}) == std::vector<char>{'O', 'P', 'Z'});
     REQUIRE(hw02_test(std::vector<int>{70, 71, 72}) == std::vector<char>{'F', 'G', 'H'});
     REQUIRE(hw02_test(std::vector<int>{87, 86, 80}) == std::vector<char>{'P', 'V', 'W'});
-   REQUIRE(hw02_test(std::vector<int>{83, 73, 78}) == std::vector<char>{'I', 'N', 'S'});
+    REQUIRE(hw02_test(std::vector<int>{83, 73, 78}) == std::vector<char>{'I', 'N', 'S'});
 }
