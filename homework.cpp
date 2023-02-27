@@ -92,5 +92,5 @@ TEST_CASE("Number whith 11", "[eleven_Nums]") {
 TEST_CASE("AllHW", "[all_HW]") {
     REQUIRE(hw01_test(std::vector<int>{1, 11 , 22,33 }) == std::vector<int>{33,22,22,5,1});
     REQUIRE(hw01_test(std::vector<int>{4, 12 , 15,25 }) == std::vector<int>{25,30,24,5,4});
-    REQUIRE(hw01_test(std::vector<int>{10}) == std::vector<int>{20, 5});
+    REQUIRE(hw01_test(std::vector<int>{10 }) == std::vector<int>{20, 5});
 }
