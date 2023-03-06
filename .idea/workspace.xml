@@ -21,8 +21,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Выполнил доп задание по записи данных из блопа в структуру">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW02S/homework2s.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HW02S/homework2s.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2s" beforeDir="false" afterPath="$PROJECT_DIR$/homework2s" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,7 @@
       <workItem from="1677523463260" duration="86000" />
       <workItem from="1677523669236" duration="3208000" />
       <workItem from="1677666465818" duration="455000" />
-      <workItem from="1678107145116" duration="1442000" />
+      <workItem from="1678107145116" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал первое дз с 2 тестами">
       <created>1677465320914</created>
@@ -196,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677666587020</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Выполнил доп задание по записи данных из блопа в структуру">
+      <created>1678109150703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678109150703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
