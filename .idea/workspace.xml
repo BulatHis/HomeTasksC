@@ -20,41 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Сделал 2е дз с кастом из int в char(текст пердыдущего комита забыл поменять)">
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/reply/cache-v2-95ca12652bb422bed956.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-2be61ab56229b68d2a29.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/3.24.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/3.24.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW01/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HW01/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-9279e4e1237dd801801b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-02-27T12-55-53-0810.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-HomeWork-Debug-ef870ad062ce477cd748.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/HomeWork" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/HomeWork" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HW01/homework.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/homework2.cpp" afterDir="false" />
+    <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Выполнил доп задание по записи данных из блопа в структуру">
+      <change beforePath="$PROJECT_DIR$/HW02S/homework2s.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/HW02S/homework2s.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework2s" beforeDir="false" afterPath="$PROJECT_DIR$/homework2s" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HW1" />
+        <entry key="$PROJECT_DIR$" value="HW2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,24 +64,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "last_opened_file_path": "/home/bulat/CLionProjects/HomeWork/HW01/CMakeLists.txt",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/bulat/CLionProjects/HomeWork/HW01/CMakeLists.txt&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/HW02" />
@@ -121,7 +89,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Catch.AllHW">
+  <component name="RunManager" selected="C/C++ File.homework2s.cpp">
     <configuration name="AllHW" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="HomeWork" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework" RUN_TARGET_NAME="HomeWork" TEST_CLASS="[all_HW]" TEST_METHOD="AllHW" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -140,9 +108,10 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="homework2s.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="homework2s.cpp" CONFIG_NAME="homework2s.cpp">
+      <option name="sourceFile" value="HW02S/homework2s.cpp" />
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="testing.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="testing" TARGET_NAME="testing.cpp" CONFIG_NAME="testing.cpp">
@@ -152,6 +121,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="C/C++ File.homework2s.cpp" />
       <item itemvalue="C/C++ File.testing.cpp" />
       <item itemvalue="Catch.hw02" />
       <item itemvalue="Catch.AllHW" />
@@ -159,8 +129,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Catch.AllHW" />
+        <item itemvalue="C/C++ File.homework2s.cpp" />
         <item itemvalue="Catch.hw02" />
+        <item itemvalue="Catch.AllHW" />
         <item itemvalue="C/C++ File.testing.cpp" />
         <item itemvalue="Catch.Number whith 11" />
       </list>
@@ -177,7 +148,11 @@
       <workItem from="1677464703003" duration="368000" />
       <workItem from="1677465104042" duration="4000" />
       <workItem from="1677465125503" duration="1626000" />
-      <workItem from="1677497058436" duration="5431000" />
+      <workItem from="1677497058436" duration="5625000" />
+      <workItem from="1677523463260" duration="86000" />
+      <workItem from="1677523669236" duration="3208000" />
+      <workItem from="1677666465818" duration="455000" />
+      <workItem from="1678107145116" duration="1754000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал первое дз с 2 тестами">
       <created>1677465320914</created>
@@ -207,17 +182,63 @@
       <option name="project" value="LOCAL" />
       <updated>1677503236276</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Разделил дз по файлам + убрал мейн из первой дз">
+      <created>1677503705499</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677503705499</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Выполнил доп задание по записи данных из блопа в структуру">
+      <created>1677666587020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677666587020</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Выполнил доп задание по записи данных из блопа в структуру">
+      <created>1678109150703</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678109150703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HW1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Сделал первое дз с 2 тестами" />
     <MESSAGE value="Пытаюсь разобраться с хабом" />
     <MESSAGE value="Сделал 2е дз с кастом из int в char(текст пердыдущего комита забыл поменять)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал 2е дз с кастом из int в char(текст пердыдущего комита забыл поменять)" />
+    <MESSAGE value="Разделил дз по файлам + убрал мейн из первой дз" />
+    <MESSAGE value="Выполнил доп задание по записи данных из блопа в структуру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил доп задание по записи данных из блопа в структуру" />
   </component>
 </project>
