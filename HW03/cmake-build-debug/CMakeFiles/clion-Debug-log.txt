@@ -1,4 +1,10 @@
-/snap/clion/222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/222/bin/ninja/linux/x64/ninja -G Ninja -S /home/bulat/CLionProjects/HomeWork/HW03 -B /home/bulat/CLionProjects/HomeWork/HW03/cmake-build-debug
+/snap/clion/222/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/222/bin/ninja/linux/x64/ninja -G Ninja -S /home/bulat/CLionProjects/HomeTasksC/HW03 -B /home/bulat/CLionProjects/HomeTasksC/HW03/cmake-build-debug
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/bulat/CLionProjects/HomeWork/HW03/cmake-build-debug
+-- Build files have been written to: /home/bulat/CLionProjects/HomeTasksC/HW03/cmake-build-debug

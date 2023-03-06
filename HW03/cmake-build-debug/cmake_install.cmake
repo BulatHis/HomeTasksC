@@ -1,4 +1,4 @@
-# Install script for directory: /home/bulat/CLionProjects/HomeWork/HW03
+# Install script for directory: /home/bulat/CLionProjects/HomeTasksC/HW03
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/bulat/CLionProjects/HomeWork/HW03/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/bulat/CLionProjects/HomeTasksC/HW03/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
