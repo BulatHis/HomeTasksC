@@ -1,1 +1,0 @@
-CMakeLists.txt not found in /home/bulat/CLionProjects/HomeWork Select CMakeLists.txt
