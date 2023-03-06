@@ -20,15 +20,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Разделил дз по файлам + убрал мейн из первой дз">
-      <change afterPath="$PROJECT_DIR$/HW02S/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW02S/homework2s.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework2s" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d5e24240-122c-4d12-abef-1e161c599beb" name="Changes" comment="Выполнил доп задание по записи данных из блопа в структуру">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW02/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/HW02/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +108,6 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework2s.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework" TARGET_NAME="homework2s.cpp" CONFIG_NAME="homework2s.cpp">
       <option name="sourceFile" value="HW02S/homework2s.cpp" />
       <method v="2">
@@ -162,7 +151,8 @@
       <workItem from="1677497058436" duration="5625000" />
       <workItem from="1677523463260" duration="86000" />
       <workItem from="1677523669236" duration="3208000" />
-      <workItem from="1677666465818" duration="13000" />
+      <workItem from="1677666465818" duration="455000" />
+      <workItem from="1678107145116" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал первое дз с 2 тестами">
       <created>1677465320914</created>
@@ -199,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677503705499</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Выполнил доп задание по записи данных из блопа в структуру">
+      <created>1677666587020</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677666587020</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +231,7 @@
     <MESSAGE value="Пытаюсь разобраться с хабом" />
     <MESSAGE value="Сделал 2е дз с кастом из int в char(текст пердыдущего комита забыл поменять)" />
     <MESSAGE value="Разделил дз по файлам + убрал мейн из первой дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="Разделил дз по файлам + убрал мейн из первой дз" />
+    <MESSAGE value="Выполнил доп задание по записи данных из блопа в структуру" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнил доп задание по записи данных из блопа в структуру" />
   </component>
 </project>
