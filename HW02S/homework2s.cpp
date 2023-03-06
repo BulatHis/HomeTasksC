@@ -11,7 +11,7 @@ int main(){
     std::ifstream fs_rd("data.bin", std::ios::in | std::ios::binary);// обращаемся к нашим данным в файле data.bin, чтобы заполнить ими структуру
     fs_rd.read(reinterpret_cast<char*>(&blob), sizeof(Blob)); // кастим и считываем данные в структуру Blob
     fs_rd.close();//закрываем
-    std::cout << "" << blob.data << std::endl;// выводим данные в консоль
+    for (const auto& ch : blob.data) { std::cout << ch << " "; }// выводим данные в консоль
 }
 
 
