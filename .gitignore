@@ -443,7 +443,6 @@ fabric.properties
 
 ##### Eclipse
 .metadata
-bin/
 tmp/
 *.tmp
 *.bak
@@ -985,7 +984,7 @@ _deps
 *.app
 
 # C/C++ binary extension file
-*.bin
+
 
 ##### C
 # Prerequisites
