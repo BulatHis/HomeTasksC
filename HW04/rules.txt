@@ -1,6 +1,6 @@
- rules
-jpg:Images
-png:Images
-mp3:Music
-txt:Docs
-docx:Docs
+rules
+jpg:/Images
+png:/Images
+mp3:/Music
+txt:/Docs
+docx:/Docs
