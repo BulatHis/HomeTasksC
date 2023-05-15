@@ -23,6 +23,7 @@ void write_ToFile_Multithreaded(const std::string& filename, const char* data, s
     std::vector<std::thread> threads;// создаем пустой вектор для потоков
     threads.reserve(numThreads);// резервируем место для потоков
 
+    std::mutex bulat;
     std::ofstream file(filename, std::ios::binary);// открытие файла в режиме бинарной записи
 
     for (int i = 0; i < numThreads; ++i) { // цикл для создания нужжного количесвтва потоков
@@ -30,8 +31,10 @@ void write_ToFile_Multithreaded(const std::string& filename, const char* data, s
         const size_t endBlock = (i + 1) * numBlocks / numThreads;// индекс последнего блока обрабатываемый этим потоком
         threads.emplace_back([&, startBlock, endBlock] { // открываем файл и записываем в него блоки данных по индексам (& нужно для захвата данных по ссылка)
             for (size_t block = startBlock; block < endBlock; ++block) { // цикл перебора блоков
+                bulat.lock();
                 file.seekp(block * blockSize, std::ios::beg);// утанавливаем позицию записи в файл для блока
                 file.write(data + block * blockSize, blockSize);// записываем дату в файл
+                bulat.unlock();
             }
         });
     }
@@ -50,19 +53,19 @@ void write_ToFile_Multithreaded(const std::string& filename, const char* data, s
 
 //3. Измерение времени выполнения:
 int main() {
-    constexpr size_t fileSize = 2ull  * 1024ull *  1024ull * 1024ull;//размер загружаемых данныхо (меняй перво число для изменения гб памяти)
+    size_t fileSize = 1ull  * 1024ull *  1024ull * 1024ull;//размер загружаемых данныхо (меняй перво число для изменения гб памяти)
     std::vector<char> data(fileSize); //вектор размера fileSize
 
-     const auto startSync = std::chrono::high_resolution_clock::now(); // начало замера времени
-     write_ToFile_Sync("test_sync.bin", data.data(), fileSize); // вызов метода синхронной записи
-     const auto endSync = std::chrono::high_resolution_clock::now(); // конец замера времени
-     const auto elapsedSync = std::chrono::duration_cast<std::chrono::milliseconds>(endSync - startSync);//разность начала и конца замеров
+      auto startSync = std::chrono::high_resolution_clock::now(); // начало замера времени
+     write_ToFile_Sync("sync.bin", data.data(), fileSize); // вызов метода синхронной записи
+      auto endSync = std::chrono::high_resolution_clock::now(); // конец замера времени
+      auto elapsedSync = std::chrono::duration_cast<std::chrono::milliseconds>(endSync - startSync);//разность начала и конца замеров
      std::cout << "Sync write time: " << elapsedSync.count() << " ms\n"; //вывыод выремени работы синхронной записи
 
-    const auto startMultithreaded = std::chrono::high_resolution_clock::now();// начало замера времени
-    write_ToFile_Multithreaded("test_multithreaded.bin", data.data(), fileSize);// вызов метода асинхронной записи
-    const auto endMultithreaded = std::chrono::high_resolution_clock::now();// конец замера времени
-    const auto elapsedMultithreaded = std::chrono::duration_cast<std::chrono::milliseconds>(endMultithreaded - startMultithreaded);// разность начала и конца замеров
+     auto startMultithreaded = std::chrono::high_resolution_clock::now();// начало замера времени
+    write_ToFile_Multithreaded("multithreaded.bin", data.data(), fileSize);// вызов метода асинхронной записи
+     auto endMultithreaded = std::chrono::high_resolution_clock::now();// конец замера времени
+     auto elapsedMultithreaded = std::chrono::duration_cast<std::chrono::milliseconds>(endMultithreaded - startMultithreaded);// разность начала и конца замеров
     std::cout << "Multithreaded write time: " << elapsedMultithreaded.count() << " ms\n";// вывыод выремени работы асинхронной записи
     return 0;
 }
